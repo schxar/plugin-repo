@@ -1066,8 +1066,7 @@
       },
       "license": "MIT",
       "host_application": {
-        "min_version": "0.10.3",
-        "max_version": "0.10.3"
+        "min_version": "0.10.3"
       },
       "homepage_url": "https://github.com/internetsb/Maizone",
       "repository_url": "https://github.com/internetsb/Maizone",
@@ -1570,29 +1569,29 @@
     "id": "XinxInxiN0.bilibili_video_sender_plugin",
     "manifest": {
       "manifest_version": 1,
-      "name": "麦麦发B站视频",
-      "version": "1.0.7",
-      "description": "让麦麦解析b站视频链接并发送，群聊私聊都可用",
+      "name": "B站视频直链发送插件 (Bilibili Video Sender)",
+      "version": "1.0.0",
+      "description": "当收到包含哔哩哔哩视频链接的消息时，自动解析并发送可直连的播放地址与视频文件",
       "author": {
-        "name": "XinxInxiN0",
+        "name": "U+4E50",
         "url": "https://github.com/XinxInxiN0"
       },
       "license": "MIT",
       "host_application": {
-        "min_version": "0.9.0",
-        "max_version": "0.10.3"
+        "min_version": "0.9.0"
       },
-      "homepage_url": "https://github.com/XinxInxiN0/bilibili_video_sender_plugin",
+      "homepage_url": "https://github.com/XinxInxiN0",
       "repository_url": "https://github.com/XinxInxiN0/bilibili_video_sender_plugin",
       "config_file_name": "config.toml",
       "keywords": [
         "bilibili",
         "video",
-        "send"
+        "sender",
+        "auto"
       ],
       "categories": [
-        "Multimedia",
-        "Utility Tools"
+        "Utilities",
+        "Video"
       ],
       "default_locale": "zh-CN",
       "plugin_info": {
@@ -1601,7 +1600,8 @@
         "components": [],
         "features": [
           "自动识别B站链接",
-          "发送视频文件",
+          "解析直链并发送",
+          "同时尝试发送视频文件",
           "支持b23.tv短链"
         ]
       }
