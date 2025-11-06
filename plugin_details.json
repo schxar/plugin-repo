@@ -196,7 +196,7 @@
       "license": "AGPL-v3.0",
       "host_application": {
         "min_version": "0.9.1",
-        "max_version": "0.11.0"
+        "max_version": "0.11.1"
       },
       "keywords": [
         "tarot",
@@ -493,7 +493,7 @@
       "license": "GPL-v3.0-or-later",
       "host_application": {
         "min_version": "0.9.1",
-        "max_version": "0.11.0"
+        "max_version": "0.11.1"
       },
       "keywords": [
         "mute",
@@ -527,7 +527,7 @@
       "license": "GPL-v3.0-or-later",
       "host_application": {
         "min_version": "0.9.1",
-        "max_version": "0.11.0"
+        "max_version": "0.11.1"
       },
       "keywords": [
         "poke",
