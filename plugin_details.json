@@ -1874,7 +1874,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "麦麦发B站视频",
-      "version": "1.0.7",
+      "version": "1.1.0",
       "description": "让麦麦解析b站视频链接并发送，群聊私聊都可用",
       "author": {
         "name": "XinxInxiN0",
@@ -1906,7 +1906,8 @@
           "发送视频文件",
           "支持b23.tv短链"
         ]
-      }
+      },
+      "id": "XinxInxiN0.bilibili_video_sender_plugin"
     }
   },
   {
