@@ -671,7 +671,7 @@
           },
           {
             "name": "components",
-            "description": "��件启用控制"
+            "description": "组件启用控制"
           },
           {
             "name": "probability",
