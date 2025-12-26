@@ -1407,8 +1407,8 @@
         "点赞"
       ],
       "categories": [
-        "网络",
-        "qq空间"
+        "Content Generation",
+        "External Integration"
       ],
       "plugin_info": {
         "is_built_in": false,
@@ -1429,7 +1429,8 @@
             "description": "根据指定主题发送一条说说"
           }
         ]
-      }
+      },
+      "id": "internetsb.Maizone"
     }
   },
   {
