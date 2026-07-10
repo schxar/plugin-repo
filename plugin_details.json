@@ -830,7 +830,7 @@
         "features": [
           "智能LLM判定生成时机",
           "高质量AI图片生成",
-          "���果缓存机制",
+          "结果缓存机制",
           "多种图片尺寸支持",
           "完整的错误处理"
         ]
@@ -1040,6 +1040,38 @@
     }
   },
   {
+    "id": "dkdcakedangao.MaiBot-MHWJH-Plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "麦麦的怪物猎人集会码插件",
+      "version": "1.2.0",
+      "description": "提供怪物猎人集会码的登记、查询和删除功能，支持多群组隔离管理",
+      "author": {
+        "name": "倒过来的蛋糕蛋糕",
+        "url": "https://github.com/dkdcakedangao"
+      },
+      "license": "GPL-v3.0-or-later",
+      "keywords": [
+        "怪物猎人",
+        "集会码",
+        "游戏",
+        "MHW",
+        "集会"
+      ],
+      "categories": [
+        "Entertainment & Interaction",
+        "Utility Tools"
+      ],
+      "repository_url": "https://github.com/dkdcakedangao/MaiBot-MHWJH-Plugin",
+      "default_locale": "zh-CN",
+      "locales_path": "_locales",
+      "host_application": {
+        "min_version": "0.9.0",
+        "max_version": "0.10.1"
+      }
+    }
+  },
+  {
     "id": "internetsb.Maizone",
     "manifest": {
       "manifest_version": 2,
@@ -1110,6 +1142,54 @@
           "fallback": "package",
           "background": "#1f2937"
         }
+      }
+    }
+  },
+  {
+    "id": "liuchunyu44.acpoke_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "戳一戳插件",
+      "display_name": "戳一戳插件",
+      "version": "0.5.1",
+      "description": "全新重构的戳一戳插件，做到真正的装载即用！一个主动发起“戳一戳”的 MaiMai 插件，主动发起戳一戳，增添群聊乐趣。",
+      "author": {
+        "name": "何夕",
+        "url": "https://github.com/Heximiao/acpoke_plugin",
+        "email": "lcy1416603026@gmail.com"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.9.0"
+      },
+      "entry": "plugin.py",
+      "homepage_url": "https://github.com/Heximiao/acpoke_plugin",
+      "repository_url": "https://github.com/Heximiao/acpoke_plugin",
+      "keywords": [
+        "poke",
+        "maimai",
+        "互动",
+        "自动戳人",
+        "插件"
+      ],
+      "categories": [
+        "Entertainment & Interaction"
+      ],
+      "default_locale": "zh-CN",
+      "plugin_info": {
+        "is_built_in": false,
+        "plugin_type": "chat",
+        "components": [
+          {
+            "type": "action",
+            "name": "PokeAction",
+            "description": "在合适场景下对目标用户执行戳一戳互动"
+          }
+        ],
+        "features": [
+          "戳一戳",
+          "自动互动"
+        ]
       }
     }
   },
@@ -1526,7 +1606,7 @@
     "id": "XXXxx7258.google_search_plugin",
     "manifest": {
       "manifest_version": 2,
-      "version": "4.0.1",
+      "version": "4.0.2",
       "name": "麦麦联网插件（search plugin）",
       "description": "支持多个搜索引擎的网络搜索、缩写翻译以及图片搜索，并提供自动降级能力。",
       "author": {
